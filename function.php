@@ -1,4 +1,7 @@
 <?php
+$title = "Fizz Buzz Game";
+
+
 $num = mb_convert_kana($_POST['num'], "n");
 
 if (!is_numeric($num)) {

@@ -1,0 +1,42 @@
+h1 {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.container {
+  font-size: 0.6em;
+  width: 98%;
+  margin: 0 auto;
+  @media screen and(min-width:768px) {
+    font-size: 0.8em;
+    .sp_br {
+      display: none;
+    }
+  }
+}
+
+.title {
+  width: 100%;
+  h1 {
+    margin-bottom: 0;
+  }
+}
+
+.describe {
+  margin-top: 40px;
+  p {
+    padding-left: 15px;
+  }
+}
+
+.input {
+  margin: 40px 0;
+  hr {
+    margin-top: 20px;
+  }
+}
